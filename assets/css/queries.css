@@ -14,20 +14,26 @@
     width: 75%;
   }
 }
+
 @media (max-width: 1267px) {
   .hero-shadow {
     transform: translate(-3.5rem, -2.5rem);
     min-width: 140%;
   }
 }
+
 @media (min-width: 375px) and (max-width: 829px) {
   .grid-columns-2 {
     grid-template-columns: 1fr;
   }
 
+  .heading-primary {
+    margin-bottom: -5rem;
+  }
+
   .hero-image-box {
     margin-top: -10rem;
-    width: 45%;
+    width: 40%;
     margin-inline: auto;
   }
 
@@ -65,5 +71,9 @@
 
   .hero-image-box {
     width: 60%;
+  }
+
+  .heading-primary {
+    margin-bottom: -2.5rem;
   }
 }
