@@ -48,7 +48,7 @@
 
   .grid-columns-4 {
     grid-template-columns: 1fr 1fr;
-    row-gap: 5rem;
+    row-gap: 2.5rem;
   }
 }
 
