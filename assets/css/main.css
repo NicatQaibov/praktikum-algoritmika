@@ -1,0 +1,89 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
+
+html {
+  font-size: 62.5%;
+  overflow-x: hidden;
+}
+
+body {
+  padding-block: 1.5rem;
+}
+
+:root {
+  --background-primary-color: #fff;
+  --text-primary-color: #000;
+
+  --fs-heading: 5.5rem;
+  --fs-text: 2.4rem;
+  --fs-list-heading: 2.5rem;
+  --fs-list-text: 1.8rem;
+
+  --fw-bold: 900;
+  --fw-regular: 400;
+
+  --ff-main-heading: "Roboto Slab";
+  --ff-text: "Roboto";
+
+  --lh-150: 150%;
+  --lh--130: 130%;
+  --lh-100: 100%;
+}
+
+/* BASE */
+.container {
+  max-width: 119rem;
+  margin-inline: auto;
+  padding-inline: 1rem;
+}
+
+/* HEADER */
+.primary-header {
+  padding-block: 5rem;
+}
+
+/* HERO SECTION */
+
+.section-hero {
+  margin-bottom: 10rem;
+}
+
+.hero-text-box {
+  flex-basis: 56.5%;
+}
+
+.hero-image-box {
+  flex-basis: 24%;
+}
+
+.hero-image {
+  width: 100%;
+}
+
+.shadow {
+  position: relative;
+  z-index: -1;
+}
+
+.hero-shadow {
+  transform: translate(-3.5rem, -4rem);
+  min-width: 120%;
+}
+
+.hero-text:not(:last-child) {
+  margin-bottom: 2.5rem;
+}
+
+/* FEATURES SECTION */
+.feature-image {
+  max-width: 24rem;
+}
+
+.feature:not(:last-child) {
+  margin-right: 10rem;
+}
+
+.feature-shadow {
+  max-width: 20rem;
+  transform: translate(2rem, -2rem);
+}

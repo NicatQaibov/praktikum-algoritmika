@@ -1,0 +1,68 @@
+/* FONTS */
+.fs-heading {
+  font-size: var(--fs-heading);
+}
+
+.fs-regular-text {
+  font-size: var(--fs-text);
+}
+
+.fs-list-heading {
+  font-size: var(--fs-list-heading);
+}
+
+.fs-list-text {
+  font-size: var(--fs-list-text);
+}
+
+.fw-bold {
+  font-weight: var(--fw-bold);
+}
+
+.fw-regular {
+  font-weight: var(--fw-regular);
+}
+
+.ff-text {
+  font-family: var(--ff-text);
+}
+
+.ff-main-heading {
+  font-family: var(--ff-main-heading);
+}
+
+.lh-150 {
+  line-height: var(--lh-150);
+}
+
+.lh-130 {
+  line-height: var(--lh-130);
+}
+
+.lh-100 {
+  line-height: var(--lh-100);
+}
+
+/* GRID */
+
+.gap-sm {
+  gap: 2rem;
+}
+.gap-lg {
+  gap: 15rem;
+}
+
+.grid {
+  display: grid;
+}
+.grid-align-center {
+  align-items: center;
+}
+
+.grid-columns-2 {
+  grid-template-columns: 2fr 1fr;
+}
+
+.grid-columns-4 {
+  grid-template-columns: 1.5fr 1fr 1fr 1fr;
+}
